@@ -35,7 +35,7 @@ var questions = [
 const currentQuestionIndex = 0;
 const lastQuestionIndex = questions.length - 1;
 let score = 0;
-let timer = 5000;
+let timer = 500000;
 
 function startTimer(){
     setInterval(function() {
@@ -70,7 +70,7 @@ function gameStart() {
 
     confirm('You will have 5 minutes to complete this quiz. Good Luck!')
     //Hide the h1 and instructions and button
-    instructionsEl.style.display = 'd-none';
+    instructionsEl.style.display = 'none';
     // starts timer countdown
     // renders first question
     renderQuestion();
@@ -107,7 +107,7 @@ function renderQuestion() {
     
     }
     
-    renderQuestion()
+    
     
 
 
