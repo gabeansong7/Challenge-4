@@ -14,36 +14,44 @@
     <div class="container-fluid p-3 bg-white text-black text-center text-uppercase">
         
         <h1>Code Quiz</h1>
-
+    
     </div>
     <div>
         
         <div class="info-box">
             <div class="g-lg-6"></div>
         </div>
-
+    
         <div class="info_title text-decoration-underline p-4 text-center display-6">
             <span>Rules for the Quiz</span>
         </div>
-
-        <div class="instructions display-12 text-center d-flex ">
+    
+        <div class="instructions display-12 text-center d-flex">
             <div class="info">1. You will only have <span class="">20 seconds</span> per each question.</div>
             <div class="info">2. You can't select any option once the timer goes off.</div>
             <div class="info">3. You can't exit the quiz while you are playing.</div>
             <div class="info">4. Points will accumulate based on correct answers.</div>
         </div> 
-
+    
         <div class="start btn btn-outline-dark btn container-fluid display-1">Start Quiz</div>
-
-        <div class="buttons d-flex justify-content-center p-4">
-            <button class="quit">Exit Quiz</button>
-            <button class="restart">Continue</button> 
+    
+            <div class="buttons d-flex justify-content-center p-4">
+                <button class="save">Save Results</button>
+                <button class="quit">Exit Quiz</button>
+                <button class="next">Continue</button>
+    
+            </div>
+    
         </div>
 
-    </div>
-    
+        <div class = "quiz-container">
+            <div class = "question"></div>
+            <ui class = "choices">
+            </ui>
+        </div>
 
-    <p id="countdown">5:00</p>
-    <script src="script.js"></script>
-</body>
+        <p class="countdown">5:00</p>
+        <script src="script.js"></script>
+        
+ </body>
 </html>
